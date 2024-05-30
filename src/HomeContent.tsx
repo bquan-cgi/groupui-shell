@@ -15,9 +15,9 @@ export default function HomeContent() {
             </div>
 
             <div>
-              <groupui-10-1-0-Button onClick={() => console.log("Clicked")}>
+              <Groupui1010Button onClick={() => console.log("Clicked")}>
                 Click GroupuiButton!
-              </groupui-10-1-0-Button>
+              </Groupui1010Button>
             </div>
             <div class="slim-content">
               <groupui-10-1-0-select label="Label">

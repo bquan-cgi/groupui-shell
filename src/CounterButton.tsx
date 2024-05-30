@@ -7,12 +7,12 @@ export default function CounterButton() {
 
   return (
     <div className="bg-amber-100 px-2 m-3 border-dashed border-2 border-green-500">
-      <groupui-10-1-0-Button
+      <Groupui1010Button
         className="font-button"
         onClick={() => setCount((count) => count + 1)}
       >
         count is {count}
-      </groupui-10-1-0-Button>
+      </Groupui1010Button>
     </div>
   );
 }
