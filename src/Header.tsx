@@ -1,3 +1,15 @@
+import {
+  GroupuiActionArea,
+  GroupuiActionAreaPopoverItem,
+  GroupuiAvatar,
+  GroupuiDivider,
+  GroupuiHeader,
+  GroupuiHeadline,
+  GroupuiIcon,
+  GroupuiText,
+  GroupuiTopNavigation,
+  GroupuiTopNavigationItem,
+} from "@group-ui/group-ui-react";
 import "./App.css";
 
 function Header() {
@@ -8,68 +20,62 @@ function Header() {
           className="header-navigation-items container-border"
           brand="vwgroup"
         >
-          <groupui-header>
-            <groupui-headline heading="h5">Product name</groupui-headline>
-            <groupui-top-navigation size="l" inverted="true" embedded>
-              <groupui-top-navigation-item>App 1</groupui-top-navigation-item>
-              <groupui-top-navigation-item>App 2</groupui-top-navigation-item>
-              <groupui-top-navigation-item>About</groupui-top-navigation-item>
-            </groupui-top-navigation>
+          <GroupuiHeader>
+            <GroupuiHeadline heading="h5">Product name</GroupuiHeadline>
+            <GroupuiTopNavigation size="l" inverted="true" embedded>
+              <GroupuiTopNavigationItem>App 1</GroupuiTopNavigationItem>
+              <GroupuiTopNavigationItem>App 2</GroupuiTopNavigationItem>
+              <GroupuiTopNavigationItem>About</GroupuiTopNavigationItem>
+            </GroupuiTopNavigation>
 
-            <groupui-divider vertical inverted></groupui-divider>
+            <GroupuiDivider vertical inverted></GroupuiDivider>
 
-            <groupui-action-area>
-              <groupui-action-area-popover-item>
+            <GroupuiActionArea>
+              <GroupuiActionAreaPopoverItem>
                 <span slot="parent">
-                  <groupui-icon name="clock-32"></groupui-icon>
+                  <GroupuiIcon name="clock-32"></GroupuiIcon>
                 </span>
-                <groupui-text slot="content" class="popover-content">
+                <GroupuiText slot="content" class="popover-content">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Explicabo, in.
-                </groupui-text>
-              </groupui-action-area-popover-item>
+                </GroupuiText>
+              </GroupuiActionAreaPopoverItem>
 
-              <groupui-action-area-popover-item>
+              <GroupuiActionAreaPopoverItem>
                 <span slot="parent">
-                  <groupui-icon name="rocket-32"></groupui-icon>
+                  <GroupuiIcon name="rocket-32"></GroupuiIcon>
                 </span>
-                <groupui-text slot="content" class="popover-content">
+                <GroupuiText slot="content" class="popover-content">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Explicabo, in.
-                </groupui-text>
-              </groupui-action-area-popover-item>
+                </GroupuiText>
+              </GroupuiActionAreaPopoverItem>
 
-              <groupui-action-area-popover-item>
-                <groupui-avatar
-                  slot="parent"
-                  inverted
-                  size="m"
-                ></groupui-avatar>
-                <groupui-text slot="content" class="popover-content">
+              <GroupuiActionAreaPopoverItem>
+                <GroupuiAvatar slot="parent" inverted size="m"></GroupuiAvatar>
+                <GroupuiText slot="content" class="popover-content">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Explicabo, in.
-                </groupui-text>
-              </groupui-action-area-popover-item>
-            </groupui-action-area>
-          </groupui-header>
+                </GroupuiText>
+              </GroupuiActionAreaPopoverItem>
+            </GroupuiActionArea>
+          </GroupuiHeader>
 
-          <groupui-top-navigation size="l">
-            <groupui-top-navigation-item icon="home-24">
+          <GroupuiTopNavigation size="l">
+            <GroupuiTopNavigationItem icon="home-24">
               Dashboard
-            </groupui-top-navigation-item>
-            <groupui-top-navigation-item icon="clipboard-24">
+            </GroupuiTopNavigationItem>
+            <GroupuiTopNavigationItem icon="clipboard-24">
               Manage
-            </groupui-top-navigation-item>
-            <groupui-top-navigation-item icon="heart-24">
+            </GroupuiTopNavigationItem>
+            <GroupuiTopNavigationItem icon="heart-24">
               Favorites
-            </groupui-top-navigation-item>
-            <groupui-top-navigation-item icon="library-24">
+            </GroupuiTopNavigationItem>
+            <GroupuiTopNavigationItem icon="library-24">
               Library
-            </groupui-top-navigation-item>
-          </groupui-top-navigation>
+            </GroupuiTopNavigationItem>
+          </GroupuiTopNavigation>
         </div>
-
-
       </div>
     </>
   );
