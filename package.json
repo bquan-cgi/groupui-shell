@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite --port 8080 --strictPort",
     "build": "vite build",
-    "preview": "vite preview --port 8001 --strictPort",
-    "serve": "vite preview --port 8001 --strictPort",
+    "preview": "vite preview --port 8080 --strictPort",
+    "serve": "vite preview --port 8080 --strictPort",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
