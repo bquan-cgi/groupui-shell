@@ -16,7 +16,7 @@ export default defineConfig({
       remotes: {
         app2: "http://localhost:3002/assets/remoteEntry.js",
       },
-      shared: ["react", "react-dom"],
+    shared: ["react", "react-dom", "@group-ui/group-ui-react"],
     }),
   ],
   build: {

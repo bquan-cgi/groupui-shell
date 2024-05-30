@@ -55,16 +55,16 @@ function Header() {
           </Groupui1010Header>
 
           <Groupui1010TopNavigation size="l">
-            <Groupui1010TopNavigationItem icon="home-24">
+            <Groupui1010TopNavigationItem icon="home-24" href="/">
               Dashboard
             </Groupui1010TopNavigationItem>
-            <Groupui1010TopNavigationItem icon="clipboard-24">
+            <Groupui1010TopNavigationItem icon="clipboard-24" href="/app2">
               Manage
             </Groupui1010TopNavigationItem>
-            <Groupui1010TopNavigationItem icon="heart-24">
+            <Groupui1010TopNavigationItem icon="heart-24" href="/about">
               Favorites
             </Groupui1010TopNavigationItem>
-            <Groupui1010TopNavigationItem icon="library-24">
+            <Groupui1010TopNavigationItem icon="library-24" href="/nan">
               Library
             </Groupui1010TopNavigationItem>
           </Groupui1010TopNavigation>
