@@ -15,7 +15,8 @@
     "@group-ui/group-ui-assets": "https://assets.groupui.vwapps.run/latest/packages/group-ui-assets.tgz",
     "@group-ui/group-ui-react": "https://groupui.vwapps.run/latest/packages/group-ui-react.tgz",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
     "@originjs/vite-plugin-federation": "^1.3.5",
