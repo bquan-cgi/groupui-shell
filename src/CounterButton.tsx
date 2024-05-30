@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { GroupuiButton } from '@group-ui/group-ui-react';
+import { Groupui1010Button } from '@group-ui/group-ui-react';
 
 
 export default function CounterButton() {
@@ -7,12 +7,12 @@ export default function CounterButton() {
 
   return (
     <div className="bg-amber-100 px-2 m-3 border-dashed border-2 border-green-500">
-      <GroupuiButton
+      <groupui-10-1-0-Button
         className="font-button"
         onClick={() => setCount((count) => count + 1)}
       >
         count is {count}
-      </GroupuiButton>
+      </groupui-10-1-0-Button>
     </div>
   );
 }
